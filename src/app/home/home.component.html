@@ -1,6 +1,21 @@
 <div class="content-wrapper">
     <div class="container">
-        <br /><br />
-        {{content}}
+        <div class="row">
+            <div class="col-2" id="columnLeft">
+                OPA
+            </div>
+            <div class="col-8">
+                <section class="content">
+                    <div class="jumbotron welcome-jumbotron">
+                        <h1>{{welcome}}</h1>
+                        <p> {{message}} </p><a class="btn btn-primary btn-lg"
+                            ng-reflect-router-link="/" href="/">EBAZAR</a>
+                    </div>
+                </section>
+            </div>
+            <div class="col-2" id="columnRight">
+                    OPA
+            </div>
+        </div>
     </div>
 </div>

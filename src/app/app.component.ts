@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  content = 'Welcome to BAZAR,  PHP + Angular Application'
+
 }
